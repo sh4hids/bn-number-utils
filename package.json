@@ -1,6 +1,6 @@
 {
   "name": "bn-number-utils",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A small library to convert numeric values to Bengali numbers.",
   "main": "cjs/index.js",
   "module": "esm/index.js",

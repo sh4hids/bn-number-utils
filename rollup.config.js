@@ -15,7 +15,7 @@ export default [
   {
     input: {
       index: "src/main.js",
-      convertOnlyNumbers: "src/convert-only-numbers.js"
+      convertNumbers: "src/convert-numbers.js"
     },
     output: [
       {

@@ -1,1 +1,1 @@
-export { default as convertOnlyNumbers } from "./convert-only-numbers";
+export { default as convertNumbers } from "./convert-numbers";

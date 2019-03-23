@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var convertOnlyNumbers = require('./convertOnlyNumbers.js');
+var convertNumbers = require('./convertNumbers.js');
 
 
 
-exports.convertOnlyNumbers = convertOnlyNumbers;
+exports.convertNumbers = convertNumbers;

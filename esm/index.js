@@ -1,1 +1,1 @@
-export { default as convertOnlyNumbers } from './convertOnlyNumbers.js';
+export { default as convertNumbers } from './convertNumbers.js';
