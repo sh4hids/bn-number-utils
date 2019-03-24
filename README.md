@@ -1,4 +1,4 @@
-# bn-number-utils [![Build Status](https://img.shields.io/github/stars/sh4hids/bn-number-utils.svg)](https://github.com/sh4hids/bn-number-utils) · [![License](https://img.shields.io/github/license/sh4hids/bn-number-utils.svg)](https://github.com/sh4hids/bn-number-utils)
+# bn-number-utils [![Build Status](https://img.shields.io/github/stars/sh4hids/bn-number-utils.svg)](https://github.com/sh4hids/bn-number-utils) · [![License](https://img.shields.io/github/license/sh4hids/bn-number-utils.svg)](https://github.com/sh4hids/bn-number-utils) · [![GitHub issues](https://img.shields.io/github/issues/sh4hids/bn-number-utils.svg?style=popout)](https://github.com/sh4hids/bn-number-utils/issues)
 
 This is a small utility library to help you to convert any numbers to Bengali number.
 
