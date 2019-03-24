@@ -5,7 +5,8 @@
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
-    "prepare": "rollup --config",
+    "prebuild": "npm run test",
+    "build": "rollup --config",
     "test": "jest"
   },
   "files": [
