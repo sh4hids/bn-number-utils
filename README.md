@@ -14,22 +14,25 @@ $ npm i bn-number-utils
 
 This function will convert any numeric input to Bengali numeric value
 
-#### Node.js
+#### Import
 
 ```
 const { convertNumbers } = require("bn-number-utils");
-convertNumbers(123); => '১২৩'
-convertNumbers(1.23); => '১.২৩'
-convertNumbers(-123); => '-১২৩'
-convertNumbers(-123); => '-১২৩'
 ```
 
-#### ES6+
+`Or`
 
 ```
 import { convertOnlyNumbers } from "bn-number-utils";
+```
+
+#### Usage
+
+```
 convertNumbers(123); => '১২৩'
 convertNumbers(1.23); => '১.২৩'
 convertNumbers(-123); => '-১২৩'
 convertNumbers(-123); => '-১২৩'
+convertNumbers('3 টি প্রোফাইল পাওয়া গিয়েছে'); => '৩ টি প্রোফাইল পাওয়া গিয়েছে'
+convertNumbers(''); => 'প্রদানকৃত ইনপুটটি সঠিক নয়'
 ```
