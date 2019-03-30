@@ -1,12 +1,13 @@
 {
   "name": "bn-number-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small library to convert numeric values to Bengali numbers.",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
     "prebuild": "npm run test",
     "build": "rollup --config",
+    "dev": "rollup --config",
     "test": "jest"
   },
   "files": [
