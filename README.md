@@ -34,5 +34,6 @@ convertNumbers(1.23); => '১.২৩'
 convertNumbers(-123); => '-১২৩'
 convertNumbers(-123); => '-১২৩'
 convertNumbers('3 টি প্রোফাইল পাওয়া গিয়েছে'); => '৩ টি প্রোফাইল পাওয়া গিয়েছে'
-convertNumbers(''); => 'প্রদানকৃত ইনপুটটি সঠিক নয়'
+convertNumbers('মার্চ 20, 2019'); => 'মার্চ ২০, ২০১৯'
+convertNumbers(''); => ''
 ```
