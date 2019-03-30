@@ -23,7 +23,7 @@ const { convertNumbers } = require("bn-number-utils");
 `Or`
 
 ```
-import { convertOnlyNumbers } from "bn-number-utils";
+import { convertNumbers } from "bn-number-utils";
 ```
 
 #### Usage
