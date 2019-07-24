@@ -37,3 +37,30 @@ convertNumbers('3 টি প্রোফাইল পাওয়া গিয়ে�
 convertNumbers('মার্চ 20, 2019'); => 'মার্চ ২০, ২০১৯'
 convertNumbers(''); => ''
 ```
+
+### convertToTaka
+
+This function will convert any numeric input to Bangladeshi currency (৳)
+
+#### Import
+
+```
+const { convertToTaka } = require("bn-number-utils");
+```
+
+`Or`
+
+```
+import { convertToTaka } from "bn-number-utils";
+```
+
+#### Usage
+
+```
+convertToTaka(123); => '৳১২৩'
+convertToTaka(1.23); => '৳১.২৩'
+convertToTaka(-123); => '-৳১২৩'
+convertToTaka(-12.3); => '-৳১২.৩'
+convertToTaka("-12.a"); => '-12.a'
+convertToTaka(''); => ''
+```
